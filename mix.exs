@@ -21,7 +21,7 @@ defmodule PlugAuth.Mixfile do
 
   defp deps do
     [
-      {:plug, "~> 0.10.0"},
+      {:plug, github: "Cobenian/plug"}, # {:plug, "~> 0.10.0"},
       {:cowboy, "~> 1.0"}, 
       {:earmark, "~> 0.1", only: :docs},
       {:ex_doc, "~> 0.7.1", only: :docs},
